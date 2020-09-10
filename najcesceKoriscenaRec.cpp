@@ -26,7 +26,7 @@ main()
 	int n;
 	printf("Unesi broj dozvoljenih slova u reci:\n");
 	scanf("%d",&n);
-	file = fopen("AutobiografijaBNusic.txt", "r");
+	file = fopen("lea.txt", "r");
 
 	if (file == NULL){
 		printf("Couldn't open file: ");
